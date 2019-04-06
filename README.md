@@ -4,9 +4,6 @@ viewing, analysing and visualizing the relation and estimated effects of differe
 'Survival'. Visualised each variable by means of various graphs like histograms, bar graphs, point plots using matplotlib and 
 seaborn libraries(Univariate analysis). Completed the train and test dataset by filling the features having missing values with
 median for numeric datatype and mode for categorical datatype. Performed feature engineering to exclude features having negligible
-importance in the prediction and created new features using the combination of two or more features. Visualised the relation of
-the new features with the dependent variable (Bivariate Analysis). Classified the categorical data into various bands. Developed
-and compared different models based on their accuracy scores using different classification algorithms like Logistic Regression, 
-Decision tree, KNN, SVM, Naive Bayes, Random Forests. Parameter tuning was also done for all these models. An accuracy score of 78.5% was finally 
-obtained using Random Forest based model.
+importance in the prediction and created new features using the combination of two or more features.Then I categorized various features like Name, Age and Fare into different bands using pandas’ qcut () function. Developed and compared different models 
+based on their accuracy scores using different classification algorithms like Logistic Regression,Decision tree, KNN, SVM, Naive Bayes, Random Forests. Parameter tuning was also done for all these models. An accuracy score of 78.5% was finally obtained using Random Forest based model.
 
